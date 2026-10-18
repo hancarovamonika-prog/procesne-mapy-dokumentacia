@@ -29,7 +29,7 @@ Zatiaľ chýba potvrdzujúci e-mail po zrušení účtu.
 
 Nová mapa vzniká z textu, ktorý vložíš alebo napíšeš. Môže to byť aj skopírovaný zápis či prepis zo stretnutia.
 
-- Text má 30 až 30 000 znakov, počítadlo pod poľom ukazuje, koľko sa ešte zmestí.
+- Text má 30 až 30 000 znakov, počítadlo pod poľom ukazuje, koľko sa ešte zmestí. Pole sa prispôsobí oknu a potiahnutím za roh sa dá zväčšiť.
 - Názov je nepovinný, najviac 30 znakov. Bez názvu mapu pomenuje AI pri analýze.
 - Zoznam „Moje mapy“ ukazuje názov, dátum, čas a stav každej mapy, najnovšie hore. Kým nemáš žiadnu mapu, stránka ukáže znudené oranžové rozhodnutie a tlačidlo „Dať mu prácu“, ktoré vedie na novú mapu.
 - Text aj názov sa dajú kedykoľvek upraviť.
@@ -55,7 +55,7 @@ Mapa ukazuje:
 
 Po kliknutí na krok vidíš jeho popis a vetu z tvojho textu, z ktorej ho AI vyvodila. Mapa je v jazyku textu. Na počítači ju posunieš ťahaním myšou, na mobile ju posúvaš a zväčšuješ prstami.
 
-![Detail kroku: popis a veta z textu, z ktorej ho AI vyvodila](obrazky/detail-kroku.png)
+![Detail kroku: popis a veta z textu, z ktorej ho AI vyvodila, nad mapou tlačidlo „Upraviť mapu“](obrazky/detail-kroku.png)
 
 Analýza beží aj po zatvorení okna. Keď v texte nie je proces, aplikácia nič nenakreslí a poradí, čo doplniť. Pri výpadku sa pokus do limitu nezapočíta.
 
@@ -95,11 +95,25 @@ Detaily patria k verzii mapy. Nová analýza začína bez rozpísaných krokov a
 
 ![Staršia verzia mapy: rozpísaný krok sa dá otvoriť cez „Zobraziť detail“](obrazky/starsia-verzia.png)
 
+## Ručná úprava mapy
+
+Keď AI niečo pochopí zle, mapu opravíš sám a nemusíš míňať analýzu. Tlačidlo „Upraviť mapu“ je pri platnej verzii mapy, upravuje sa na počítači.
+
+- Prepíšeš názov a popis kroku, otázku rozhodnutia aj názvy vetiev.
+- Pridáš krok, ktorý AI vynechala, alebo zmažeš krok navyše. Mapa môže mať najviac 25 krokov.
+- Šípky kreslíš, mažeš a pomenúvaš, aj tie, ktoré vedú späť.
+- Krok potiahneš do iného pásu, a tým mu zmeníš rolu. Pás premenuješ, posunieš hore alebo dole, alebo pridáš nový.
+- Počas úpravy máš „Späť“ a „Znova“, zmeny „Uložíš“ alebo „Zrušíš“.
+
+Prvé uloženie založí verziu „Upravená ručne“ a návrh od AI ostane ako staršia verzia. Zmenený krok má značku „Upravené ručne“, pridaný krok má namiesto vety z textu „Pridané ručne“ a dá sa rozpísať. Detaily krokov sa do novej verzie prenesú.
+
+![Úprava mapy: vybraný krok s názvom, popisom a pásom, tlačidlá na pridanie krokov a „Späť“, „Znova“, „Zrušiť“, „Uložiť“](obrazky/uprava-mapy.png)
+
 ## Čo zatiaľ nevie a čo príde ďalej
 
 Dnes appka berie len vložený text. V tomto poradí prídu:
 
-1. Ručná úprava mapy, keď AI niečo pochopila zle.
+1. Dokončenie ručnej úpravy: rozhodnutia a súbežné cesty, voľné rozmiestnenie krokov a zachovanie opráv pri novej analýze.
 2. Posielanie mapy odkazom niekomu inému.
 3. Nahratie dokumentu (Word, PDF…) ako vstupu.
 4. Nahratie záznamu alebo prepisu stretnutia.
