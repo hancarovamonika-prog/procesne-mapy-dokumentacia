@@ -4,7 +4,7 @@ title: "Procesné mapy: čo appka zatiaľ vie"
 
 # Procesné mapy: čo appka zatiaľ vie
 
-Stav k 19. 10. 2026 o 9:54.
+Stav k 19. 10. 2026 o 17:45.
 
 Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Je zadarmo, s limitom 15 analýz mesačne na účet.
 
@@ -23,7 +23,7 @@ Vedľa prihlásenia je ukážková mapa „Káva došla“: s nadhľadom ukazuje
 
 ![Úvodná stránka s prihlásením odkazom v e-maile a vtipnou ukážkovou mapou „Káva došla“](obrazky/uvod.png)
 
-Zatiaľ chýba potvrdzujúci e-mail po zrušení účtu.
+Po zrušení účtu ti príde e-mail „Tvoj účet bol zrušený“ ako potvrdenie.
 
 ## Moje mapy a vloženie textu
 
