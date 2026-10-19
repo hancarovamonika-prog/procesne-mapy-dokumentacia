@@ -4,11 +4,11 @@ title: "Procesné mapy: čo appka zatiaľ vie"
 
 # Procesné mapy: čo appka zatiaľ vie
 
-Stav k 19. 10. 2026 o 17:45.
+Stav k 19. 10. 2026 o 18:49.
 
-Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Je zadarmo, s limitom 15 analýz mesačne na účet.
+Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Hotovú mapu môžeš poslať odkazom niekomu, kto nemá účet. Je zadarmo, s limitom 15 analýz mesačne na účet.
 
-Prihlasuje sa odkazom v e-maile, bez hesla. Každý vidí len svoje mapy.
+Prihlasuje sa odkazom v e-maile, bez hesla. Každý vidí len svoje mapy, kým ich sám nezdieľa odkazom.
 
 ## Prihlásenie a môj účet
 
@@ -31,7 +31,7 @@ Nová mapa vzniká z textu, ktorý vložíš alebo napíšeš. Môže to byť aj
 
 - Text má 30 až 30 000 znakov, počítadlo pod poľom ukazuje, koľko sa ešte zmestí. Pole sa prispôsobí oknu a potiahnutím za roh sa dá zväčšiť.
 - Názov je nepovinný, najviac 30 znakov. Bez názvu mapu pomenuje AI pri analýze.
-- Zoznam „Moje mapy“ ukazuje názov, dátum, čas a stav každej mapy, najnovšie hore. Kým nemáš žiadnu mapu, stránka ukáže znudené oranžové rozhodnutie a tlačidlo „Dať mu prácu“, ktoré vedie na novú mapu.
+- Zoznam „Moje mapy“ ukazuje názov, dátum, čas a stav každej mapy, najnovšie hore. Kým nemáš žiadnu mapu, stránka ukáže znudené oranžové rozhodnutie a tlačidlo „Dať mu prácu“, ktoré vedie na novú mapu. Tlačidlo „Upraviť“ pri mape otvorí jej detail a až tam si vyberieš, či chceš upraviť text mapy, alebo samotnú mapu.
 - Text aj názov sa dajú kedykoľvek upraviť.
 - Mapu môžeš natrvalo zmazať aj s textom, po potvrdení.
 - Jeden účet môže mať najviac 200 máp.
@@ -130,14 +130,40 @@ Keď je platná verzia ručne upravená, pri „Analyzovať znova“ je zaškrtn
 
 ![Analyzovať znova: zaškrtnuté „Zachovať moje ručné opravy“ nad mapou, v ktorej je ručne pridaný krok](obrazky/zachovat-opravy.png)
 
+## Zdieľanie mapy odkazom
+
+Analyzovanú mapu môžeš ukázať niekomu, kto nemá účet a nemusí si ho zakladať. Pošle sa jej zdieľaný odkaz, ktorý si skopíruješ a pošleš, kam chceš, napríklad e-mailom či správou. Aplikácia nič neposiela sama.
+
+- Pri analyzovanej mape je tlačidlo „Zdieľať“. Rozpracovaná mapa, ktorá ešte nemá analýzu, ho nemá.
+- Po zapnutí uvidíš odkaz, vetu „Mapu uvidí každý, kto má tento odkaz.“ a tlačidlo „Kopírovať odkaz“. Mapa je na svojej stránke označená ako „Zdieľaná“.
+- Mapa má najviac jeden odkaz. Keď „Zdieľať“ zapneš znova, ukáže sa ten istý.
+- „Prestať zdieľať“ odkaz hneď zruší, bez potvrdenia. Keď zdieľanie zapneš znova, vznikne nový odkaz a starý ostane mŕtvy.
+- Zmazanie mapy aj zrušenie účtu odkaz zrušia samy.
+
+![Zdieľanie mapy: odkaz, veta o tom, kto mapu uvidí, a tlačidlá „Kopírovať odkaz“ a „Prestať zdieľať“](obrazky/zdielanie.png)
+
+### Čo vidí ten, komu odkaz pošleš
+
+Odkaz otvorí ktokoľvek bez prihlásenia, aj na mobile. Vidí názov mapy a prehľadovú mapu, po kliknutí na krok jeho popis a pri rozpísanom kroku „Zobraziť detail“ s detailnou mapou a cestou späť. Všetko je len na čítanie.
+
+- Nevidí text, z ktorého mapa vznikla, vety z textu, značky „Pridané ručne“ a „Upravené ručne“, upozornenie „Krok sa zmenil“, zoznam verzií ani tvoj e-mail.
+- Nemá tlačidlá na úpravu, analýzu ani rozpísanie, takže nič nezmení a nič ťa nestojí z limitov.
+- Odkaz ukazuje vždy platnú verziu. Po ručnej úprave, novej analýze či návrate k staršej verzii ho netreba posielať nový.
+- Kto odkaz dostal, môže ho poslať ďalej, preto ho posielaj len tým, ktorým mapu chceš ukázať.
+- Odkaz je dlhý a náhodný a stránka nemá byť vo vyhľadávačoch. Aplikácia si nezapisuje, kto a kedy odkaz otvoril.
+- Odkaz, ktorý už neplatí, aj vymyslený odkaz ukážu tú istú stránku „Tento odkaz už neplatí alebo nikdy neexistoval“, takže z nej nikto nezistí, či mapa existovala.
+
+![Zdieľaná mapa očami príjemcu: názov, prehľadová mapa a vybraný krok s tlačidlom „Zobraziť detail“](obrazky/zdielana-mapa.png)
+
+![Detailná mapa kroku očami príjemcu, len na čítanie, s odkazom späť na prehľadovú mapu](obrazky/zdielany-detail.png)
+
 ## Čo zatiaľ nevie a čo príde ďalej
 
 Dnes appka berie len vložený text. V tomto poradí prídu:
 
-1. Posielanie mapy odkazom niekomu inému.
-2. Nahratie dokumentu (Word, PDF…) ako vstupu.
-3. Nahratie záznamu alebo prepisu stretnutia.
-4. Spojenie viacerých vstupov do jednej mapy.
-5. Export mapy ako obrázok alebo PDF.
+1. Nahratie dokumentu (Word, PDF…) ako vstupu.
+2. Nahratie záznamu alebo prepisu stretnutia.
+3. Spojenie viacerých vstupov do jednej mapy.
+4. Export mapy ako obrázok alebo PDF.
 
 Neskoršie, mimo tohto zoznamu: platby, prihlásenie cez Microsoft či Google a spoločné priestory pre kolegov z jednej firmy.
