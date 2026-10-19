@@ -4,9 +4,9 @@ title: "Procesné mapy: čo appka zatiaľ vie"
 
 # Procesné mapy: čo appka zatiaľ vie
 
-Stav k 19. 10. 2026 o 9:22.
+Stav k 19. 10. 2026 o 9:54.
 
-Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí a ktorýkoľvek krok rozpísať na detailnú mapu. Je zadarmo, s limitom 15 analýz mesačne na účet.
+Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Je zadarmo, s limitom 15 analýz mesačne na účet.
 
 Prihlasuje sa odkazom v e-maile, bez hesla. Každý vidí len svoje mapy.
 
@@ -111,21 +111,33 @@ Keď AI niečo pochopí zle, mapu opravíš sám a nemusíš míňať analýzu. 
 
 Prvé uloženie založí verziu „Upravená ručne“ a návrh od AI ostane ako staršia verzia. Mapa si tvoje rozloženie pamätá aj po návrate k inej verzii a späť. Zmenený krok má značku „Upravené ručne“, pridaný krok má namiesto vety z textu „Pridané ručne“ a dá sa rozpísať. Detaily krokov sa do novej verzie prenesú.
 
+Keď zmeníš názov, popis alebo rolu kroku, ktorý už máš rozpísaný, jeho detail ukáže „Krok sa zmenil, skontroluj, či detail ešte sedí.“ Tlačidlo „Detail sedí“ upozornenie zadarmo skryje, „Rozpísať znova“ detail nahradí novým.
+
 Mapu uložíš, aj keď ešte nie je hotová. Miesta, kde niečo chýba, majú červený výkričník a nad mapou je zoznam, čo treba dorobiť: krok bez šípky, chýbajúci začiatok alebo koniec, rozhodnutie s jednou vetvou či súbežné cesty, ktoré sa nespoja. Keď miesto opravíš, značka zmizne.
 
 ![Rozbitá mapa v úprave: krok bez šípky ďalej a rozhodnutie, do ktorého nič nevedie, majú výkričník, nad mapou je zoznam toho, čo chýba](obrazky/rozbita-mapa.png)
 
 ![Úprava mapy: vybraný krok s názvom, popisom a pásom, tlačidlá na pridanie prvkov a „Späť“, „Znova“, „Usporiadať“, „Zrušiť“, „Uložiť“](obrazky/uprava-mapy.png)
 
+### Analyzovať znova s tvojimi opravami
+
+Keď je platná verzia ručne upravená, pri „Analyzovať znova“ je zaškrtnuté „Zachovať moje ručné opravy“. AI potom dostane okrem textu aj tvoju opravenú mapu a zachová z nej kroky, roly, šípky aj polohy prvkov. Kde novší text hovorí niečo iné než tvoja oprava, vyhrá text. Kroky z tvojich opráv majú aj v novej verzii značku „Pridané ručne“ alebo „Upravené ručne“ a mapa smie mať až 25 krokov.
+
+- Nová mapa je nová verzia bez rozpísaných krokov a ručne upravená verzia ostane medzi staršími, takže sa k nej vrátiš, keď AI niektorú opravu nezachová.
+- Rátá sa ako jedna analýza z 15.
+- Keď políčko odškrtneš, vznikne mapa len z textu, ako pri prvej analýze.
+- Pri verzii od AI sa políčko neukáže, lebo nie je čo zachovať.
+
+![Analyzovať znova: zaškrtnuté „Zachovať moje ručné opravy“ nad mapou, v ktorej je ručne pridaný krok](obrazky/zachovat-opravy.png)
+
 ## Čo zatiaľ nevie a čo príde ďalej
 
 Dnes appka berie len vložený text. V tomto poradí prídu:
 
-1. Dokončenie ručnej úpravy: upozornenie na detaily zmenených krokov a zachovanie opráv pri novej analýze.
-2. Posielanie mapy odkazom niekomu inému.
-3. Nahratie dokumentu (Word, PDF…) ako vstupu.
-4. Nahratie záznamu alebo prepisu stretnutia.
-5. Spojenie viacerých vstupov do jednej mapy.
-6. Export mapy ako obrázok alebo PDF.
+1. Posielanie mapy odkazom niekomu inému.
+2. Nahratie dokumentu (Word, PDF…) ako vstupu.
+3. Nahratie záznamu alebo prepisu stretnutia.
+4. Spojenie viacerých vstupov do jednej mapy.
+5. Export mapy ako obrázok alebo PDF.
 
 Neskoršie, mimo tohto zoznamu: platby, prihlásenie cez Microsoft či Google a spoločné priestory pre kolegov z jednej firmy.
