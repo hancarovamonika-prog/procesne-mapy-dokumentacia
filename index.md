@@ -4,9 +4,9 @@ title: "Procesné mapy: čo appka zatiaľ vie"
 
 # Procesné mapy: čo appka zatiaľ vie
 
-Stav k 20. 10. 2026 o 12:12.
+Stav k 20. 10. 2026 o 16:07.
 
-Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Hotovú mapu môžeš poslať odkazom niekomu, kto nemá účet. Je zadarmo, s limitom 15 analýz mesačne na účet.
+Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Hotovú mapu môžeš poslať odkazom niekomu, kto nemá účet, alebo si ju stiahnuť ako obrázok. Je zadarmo, s limitom 15 analýz mesačne na účet.
 
 Prihlasuje sa odkazom v e-maile, bez hesla. Každý vidí len svoje mapy, kým ich sám nezdieľa odkazom.
 
@@ -157,6 +157,22 @@ Odkaz otvorí ktokoľvek bez prihlásenia, aj na mobile. Vidí názov mapy a pre
 
 ![Detailná mapa kroku očami príjemcu, len na čítanie, s odkazom späť na prehľadovú mapu](obrazky/zdielany-detail.png)
 
+## Export mapy ako obrázok
+
+Keď potrebuješ mapu do e-mailu, prezentácie alebo na tlač, nemusíš fotiť obrazovku. Pri analyzovanej mape je nad prehľadovou mapou tlačidlo „Exportovať“.
+
+- Klikneš naň, vyberieš „Obrázok (PNG)“ a súbor sa hneď stiahne. Volá sa podľa názvu mapy.
+- Obrázok je prehľadová mapa na bielom pozadí a je ostrý aj pri priblížení. Hore je názov mapy, dole dátum exportu.
+- Je v ňom všetko, čo mapa ukazuje: pásy rolí, kroky, rozhodnutia, súbežné cesty, začiatok, koniec aj návraty späť. Pod mapou je zoznam krokov s popisom.
+- Je čistý, takže ho môžeš poslať aj niekomu zvonku: nemá značky „Pridané ručne“ ani „Upravené ručne“, upozornenia, vety z textu ani tvoj e-mail.
+- Mapa vyzerá ako na obrazovke vrátane tvojho rozloženia a jazyka mapy.
+- Export vzniká priamo v prehliadači. Nič sa nikam neposiela, nevolá sa AI a nestojí nič z limitov.
+- Tlačidlo nie je pri mape čakajúcej na analýzu ani na stránke, ktorú vidí príjemca zdieľaného odkazu.
+
+![Tlačidlo „Exportovať“ nad prehľadovou mapou s ponukou „Obrázok (PNG)“](obrazky/export-ponuka.png)
+
+![Stiahnutý obrázok mapy: názov hore, pásy rolí, kroky, rozhodnutia, súbežné cesty a návrat, dole zoznam krokov a dátum exportu](obrazky/export-obrazok.png)
+
 ## Čo zatiaľ nevie a čo príde ďalej
 
 Dnes appka berie len vložený text. V tomto poradí prídu:
@@ -164,6 +180,6 @@ Dnes appka berie len vložený text. V tomto poradí prídu:
 1. Nahratie dokumentu (Word, PDF…) ako vstupu.
 2. Nahratie záznamu alebo prepisu stretnutia.
 3. Spojenie viacerých vstupov do jednej mapy.
-4. Export mapy ako obrázok alebo PDF.
+4. Export ako PDF a export detailnej mapy a staršej verzie (dnes sa dá stiahnuť len obrázok prehľadovej mapy).
 
 Neskoršie, mimo tohto zoznamu: platby, prihlásenie cez Microsoft či Google a spoločné priestory pre kolegov z jednej firmy.
