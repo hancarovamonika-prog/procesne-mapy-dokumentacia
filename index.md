@@ -4,7 +4,7 @@ title: "Procesné mapy: čo appka zatiaľ vie"
 
 # Procesné mapy: čo appka zatiaľ vie
 
-Stav k 20. 10. 2026 o 17:09.
+Stav k 21. 10. 2026 o 9:30.
 
 Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Hotovú mapu môžeš poslať odkazom niekomu, kto nemá účet, alebo si ju stiahnuť ako obrázok či PDF. Je zadarmo, s limitom 15 analýz mesačne na účet.
 
@@ -169,9 +169,13 @@ Keď potrebuješ mapu do e-mailu, prezentácie alebo na tlač, nemusíš fotiť 
 - Mapa vyzerá ako na obrazovke vrátane tvojho rozloženia a jazyka mapy.
 - PDF má na prvej strane prehľadovú mapu a za ňou jednu stranu pre každý rozpísaný krok s jeho detailnou mapou. Nerozpísané kroky vlastnú stranu nemajú a mapa bez rozpísaných krokov dá PDF s jednou stranou. Každá strana má veľkosť svojej mapy, takže písmo ostane čitateľné a nič sa nezmenšuje na A4. Hore je názov mapy (pri detailnej aj názov kroku), dole dátum exportu. Text v PDF sa dá označiť.
 - Export vzniká priamo v prehliadači. Nič sa nikam neposiela, nevolá sa AI a nestojí nič z limitov.
+- Keď si pozeráš staršiu verziu mapy, exportuje sa tá, ktorú vidíš. Pred stiahnutím ťa aplikácia upozorní, že exportuješ staršiu verziu, nie platnú, a môžeš pokračovať, alebo export zrušiť. Aj samotný súbor to nesie: dole vedľa dátumu je „Staršia verzia“. Pri platnej verzii nie je upozornenie ani označenie.
+- Zvládne aj najväčšiu mapu (11 krokov, viac pásov, dlhé názvy a popisy): nič sa neorezáva a export trvá pár sekúnd.
 - Tlačidlo nie je pri mape čakajúcej na analýzu ani na stránke, ktorú vidí príjemca zdieľaného odkazu.
 
 ![Tlačidlo „Exportovať“ nad prehľadovou mapou s ponukou „Obrázok (PNG)“ a „PDF“](obrazky/export-ponuka.png)
+
+![Upozornenie pri exporte staršej verzie: exportuješ staršiu verziu, nie platnú, s tlačidlami „Pokračovať“ a „Zrušiť“](obrazky/export-starsia-verzia.png)
 
 ![Stiahnutý obrázok detailnej mapy kroku: názov mapy a pod ním názov kroku, pásy rolí, rozhodnutie a dole dátum exportu](obrazky/export-detail-obrazok.png)
 
@@ -184,6 +188,5 @@ Dnes appka berie len vložený text. V tomto poradí prídu:
 1. Nahratie dokumentu (Word, PDF…) ako vstupu.
 2. Nahratie záznamu alebo prepisu stretnutia.
 3. Spojenie viacerých vstupov do jednej mapy.
-4. Export staršej verzie s upozornením a export veľkej mapy (dnes sa dá stiahnuť obrázok aj PDF, no staršia verzia sa neoznačuje).
 
 Neskoršie, mimo tohto zoznamu: platby, prihlásenie cez Microsoft či Google a spoločné priestory pre kolegov z jednej firmy.
