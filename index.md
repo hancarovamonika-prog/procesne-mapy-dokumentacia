@@ -4,7 +4,7 @@ title: "Procesné mapy: čo appka zatiaľ vie"
 
 # Procesné mapy: čo appka zatiaľ vie
 
-Stav k 21. 10. 2026 o 9:30.
+Stav k 28. 10. 2026 o 9:45.
 
 Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Hotovú mapu môžeš poslať odkazom niekomu, kto nemá účet, alebo si ju stiahnuť ako obrázok či PDF. Je zadarmo, s limitom 15 analýz mesačne na účet.
 
@@ -17,7 +17,10 @@ Prihlási sa ktokoľvek s akoukoľvek e-mailovou adresou, bez pozvánky a bez he
 - Na úvodnej stránke zadáš e-mail a príde ti prihlasovací odkaz. Po jeho otvorení klikneš ešte na „Prihlásiť sa“, aby ho nespotrebovala automatická kontrola e-mailu. Nový odkaz si môžeš vypýtať najskôr o minútu.
 - Keď je odkaz použitý alebo vypršal, aplikácia povie „Odkaz už neplatí“ a ponúkne poslanie nového.
 - Na tom istom zariadení ostaneš prihlásený až 30 dní.
-- Na stránke „Môj účet“ vidíš svoj e-mail, môžeš sa odhlásiť alebo si účet natrvalo zrušiť. Zrušenie zmaže všetky tvoje mapy a dáta.
+- Na stránke „Môj účet“ vidíš svoj e-mail, môžeš si zadať nepovinné meno, odhlásiť sa alebo si účet natrvalo zrušiť. Zrušenie zmaže všetky tvoje mapy a dáta.
+- Vpravo hore je kolečko s iniciálami tvojho mena a vedľa neho meno. Kým meno nemáš, je tam e-mail, pri dlhej adrese skrátený. Na mobile je tam len kolečko. Klik naň otvorí „Môj účet“. Meno vidíš len ty, na zdieľanú mapu, do exportu ani k AI sa nedostane.
+
+![Môj účet: e-mail, políčko na nepovinné meno a v hlavičke kolečko s iniciálami „JN“ a menom Jana Nováková](obrazky/moj-ucet.png)
 
 Vedľa prihlásenia je ukážková mapa „Káva došla“: s nadhľadom ukazuje, ako procesná mapa vyzerá, ešte kým sa človek prihlási.
 
