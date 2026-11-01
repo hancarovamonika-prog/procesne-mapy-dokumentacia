@@ -4,7 +4,7 @@ title: "Procesné mapy: čo appka zatiaľ vie"
 
 # Procesné mapy: čo appka zatiaľ vie
 
-Stav k 1. 11. 2026 o 8:54.
+Stav k 1. 11. 2026 o 9:25.
 
 Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu, textového súboru, dokumentu vo Worde alebo PDF nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Hotovú mapu môžeš poslať odkazom niekomu, kto nemá účet, alebo si ju stiahnuť ako obrázok či PDF. Je zadarmo, s limitom 15 analýz mesačne na účet.
 
@@ -33,7 +33,7 @@ Po zrušení účtu ti príde e-mail „Tvoj účet bol zrušený“ ako potvrde
 
 Nová mapa vzniká z textu, ktorý vložíš alebo napíšeš. Môže to byť aj skopírovaný zápis či prepis zo stretnutia.
 
-- Text má 30 až 30 000 znakov, počítadlo pod poľom ukazuje, koľko sa ešte zmestí. Pole sa prispôsobí oknu a potiahnutím za roh sa dá zväčšiť.
+- Text má 30 až 50 000 znakov, počítadlo pod poľom ukazuje, koľko sa ešte zmestí. Pole sa prispôsobí oknu a potiahnutím za roh sa dá zväčšiť.
 - Názov je nepovinný, najviac 30 znakov. Bez názvu mapu pomenuje AI pri analýze.
 - Zoznam „Moje mapy“ ukazuje názov, dátum, čas a stav každej mapy, najnovšie hore. Kým nemáš žiadnu mapu, stránka ukáže znudené oranžové rozhodnutie a tlačidlo „Dať mu prácu“, ktoré vedie na novú mapu. Tlačidlo „Upraviť“ pri mape otvorí jej detail a až tam si vyberieš, či chceš upraviť text mapy, alebo samotnú mapu.
 - Text aj názov sa dajú kedykoľvek upraviť.
@@ -86,7 +86,7 @@ Každá úspešná analýza je nová verzia mapy aj s textom, z ktorého vznikla
 | Analýzy na účet | 15 mesačne, obnoví sa 1. dňa v mesiaci |
 | Mapy na účet | 200 |
 | Verzie na mapu | 10 |
-| Dĺžka textu | 30 až 30 000 znakov |
+| Dĺžka textu | 30 až 50 000 znakov |
 | Rozpísania krokov na účet | 30 mesačne, obnoví sa 1. dňa v mesiaci |
 
 Návrat k verzii limit neminie. Pri analýze vidíš, koľko analýz ti tento mesiac ostáva.
