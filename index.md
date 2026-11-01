@@ -4,7 +4,7 @@ title: "Procesné mapy: čo appka zatiaľ vie"
 
 # Procesné mapy: čo appka zatiaľ vie
 
-Stav k 1. 11. 2026 o 9:25.
+Stav k 1. 11. 2026 o 15:58.
 
 Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu, textového súboru, dokumentu vo Worde alebo PDF nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Hotovú mapu môžeš poslať odkazom niekomu, kto nemá účet, alebo si ju stiahnuť ako obrázok či PDF. Je zadarmo, s limitom 15 analýz mesačne na účet.
 
@@ -33,7 +33,7 @@ Po zrušení účtu ti príde e-mail „Tvoj účet bol zrušený“ ako potvrde
 
 Nová mapa vzniká z textu, ktorý vložíš alebo napíšeš. Môže to byť aj skopírovaný zápis či prepis zo stretnutia.
 
-- Text má 30 až 50 000 znakov, počítadlo pod poľom ukazuje, koľko sa ešte zmestí. Pole sa prispôsobí oknu a potiahnutím za roh sa dá zväčšiť.
+- Text má 30 až 50 000 znakov, počítadlo pod poľom ukazuje, koľko sa ešte zmestí. Dlhší text sa do poľa dostane celý: počítadlo zčervenie, pod ním je hláška, koľko znakov text má a o koľko ho treba skrátiť, a „Uložiť“ ho pustí až po skrátení. Text nad 200 000 znakov sa do poľa nedostane. Pole sa prispôsobí oknu a potiahnutím za roh sa dá zväčšiť.
 - Názov je nepovinný, najviac 30 znakov. Bez názvu mapu pomenuje AI pri analýze.
 - Zoznam „Moje mapy“ ukazuje názov, dátum, čas a stav každej mapy, najnovšie hore. Kým nemáš žiadnu mapu, stránka ukáže znudené oranžové rozhodnutie a tlačidlo „Dať mu prácu“, ktoré vedie na novú mapu. Tlačidlo „Upraviť“ pri mape otvorí jej detail a až tam si vyberieš, či chceš upraviť text mapy, alebo samotnú mapu.
 - Text aj názov sa dajú kedykoľvek upraviť.
@@ -45,7 +45,7 @@ Popis procesu môžeš aj nahrať z textového súboru (.txt), z Wordu (.docx) a
 - Text zo súboru sa objaví v poli, takže ho pred uložením vidíš a môžeš z neho vyhodiť, čo tam nepatrí. Uloží sa až tlačidlom „Uložiť“.
 - Prázdny názov sa vyplní podľa názvu súboru, napríklad zo „Smernica_nakup_tovaru.txt“ je „Smernica nakup tovaru“. Názov, ktorý si napísal sám, ostane.
 - Keď v poli už text je, aplikácia sa najprv opýta, či ho má nahradiť.
-- Pre text zo súboru platia tie isté hranice ako pre vložený text. Súbor nad 20 MB, prázdny, príliš krátky alebo príliš dlhý odmietne so zrozumiteľnou hláškou a pole nechá tak, ako bolo.
+- Pre text zo súboru platia tie isté hranice ako pre vložený text. Dlhší dokument sa do poľa dostane celý a skrátiš ho priamo v ňom. Súbor nad 20 MB, prázdny, príliš krátky alebo s textom nad 200 000 znakov odmietne so zrozumiteľnou hláškou a pole nechá tak, ako bolo.
 - Súbor sa číta priamo v prehliadači, nikam sa neposiela ani neukladá a mapa si nepamätá ani jeho názov. Nahratie nestojí nič z limitu analýz.
 - Z Wordu sa prenesie text aj tabuľky, každý riadok tabuľky ako jeden riadok textu s bunkami oddelenými pomlčkou. Hlavičky, päty a komentáre sa vynechajú a sledované zmeny sa prenesú tak, ako by vyzerali po prijatí. Dokument zamknutý heslom alebo poškodený odmietne s hláškou, čo s ním spraviť. Z PDF s textom sa prenesie súvislý text: slová rozdelené na konci riadku sa spoja, riadky jedného odseku tiež a čísla strán a riadky opakujúce sa hore alebo dole na každej strane (hlavička, päta) sa vynechajú. Sken bez textu, PDF zamknuté heslom alebo poškodené odmietne s hláškou, čo s ním spraviť.
 
@@ -54,6 +54,8 @@ Popis procesu môžeš aj nahrať z textového súboru (.txt), z Wordu (.docx) a
 ![Nová mapa: pole na popis procesu s tlačidlom „Nahrať dokument“ a rady, čo má text povedať](obrazky/nova-mapa.png)
 
 ![Nová mapa po nahratí textového súboru: text v poli a názov „Smernica nakup tovaru“ podľa súboru](obrazky/nahratie-dokumentu.png)
+
+![Nová mapa po nahratí dlhého dokumentu: celý text v poli, červené počítadlo 56 979 / 50 000 a pod ním hláška, že text treba skrátiť](obrazky/dlhy-text.png)
 
 ## Analýza AI a prehľadová mapa
 
