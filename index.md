@@ -4,9 +4,9 @@ title: "Procesné mapy: čo appka zatiaľ vie"
 
 # Procesné mapy: čo appka zatiaľ vie
 
-Stav k 1. 11. 2026 o 15:58.
+Stav k 1. 11. 2026 o 19:36.
 
-Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu, textového súboru, dokumentu vo Worde alebo PDF nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Hotovú mapu môžeš poslať odkazom niekomu, kto nemá účet, alebo si ju stiahnuť ako obrázok či PDF. Je zadarmo, s limitom 15 analýz mesačne na účet.
+Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu, textového súboru, dokumentu vo Worde, PDF alebo prepisu stretnutia z Teams či Zoomu nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Hotovú mapu môžeš poslať odkazom niekomu, kto nemá účet, alebo si ju stiahnuť ako obrázok či PDF. Je zadarmo, s limitom 15 analýz mesačne na účet.
 
 Prihlasuje sa odkazom v e-maile, bez hesla. Každý vidí len svoje mapy, kým ich sám nezdieľa odkazom.
 
@@ -49,13 +49,22 @@ Popis procesu môžeš aj nahrať z textového súboru (.txt), z Wordu (.docx) a
 - Súbor sa číta priamo v prehliadači, nikam sa neposiela ani neukladá a mapa si nepamätá ani jeho názov. Nahratie nestojí nič z limitu analýz.
 - Z Wordu sa prenesie text aj tabuľky, každý riadok tabuľky ako jeden riadok textu s bunkami oddelenými pomlčkou. Hlavičky, päty a komentáre sa vynechajú a sledované zmeny sa prenesú tak, ako by vyzerali po prijatí. Dokument zamknutý heslom alebo poškodený odmietne s hláškou, čo s ním spraviť. Z PDF s textom sa prenesie súvislý text: slová rozdelené na konci riadku sa spoja, riadky jedného odseku tiež a čísla strán a riadky opakujúce sa hore alebo dole na každej strane (hlavička, päta) sa vynechajú. Sken bez textu, PDF zamknuté heslom alebo poškodené odmietne s hláškou, čo s ním spraviť.
 
+Rovnakým tlačidlom nahráš aj prepis stretnutia z Teams alebo zo Zoomu (.vtt) či titulky (.srt).
+
+- V poli sa prepis objaví bez časov. Každý odsek začína menom toho, kto hovorí, a repliky jedného človeka za sebou sú spojené do jedného odseku.
+- Aplikácia sama zapne prepínač „Je to prepis stretnutia“. Pri bežnom dokumente ostane vypnutý. Ručne ho môžeš zapnúť aj vypnúť, napríklad pri skopírovanom prepise, aj neskôr pri úprave textu.
+- Pri mape z prepisu je pri texte označenie „Prepis stretnutia“ a pri „Analyzovať“ veta, že účastníci stretnutia by mali vedieť, že prepis spracuješ pomocou AI. Každá verzia si pamätá, či vznikla z prepisu, a návrat k nej to vráti.
+- Mená v prepise ostanú, kým ich sám neprepíšeš na role. AI zatiaľ číta prepis rovnako ako popis postupu.
+
 ![Moje mapy: jedna analyzovaná a jedna čakajúca na analýzu](obrazky/moje-mapy.png)
 
-![Nová mapa: pole na popis procesu s tlačidlom „Nahrať dokument“ a rady, čo má text povedať](obrazky/nova-mapa.png)
+![Nová mapa: pole na popis procesu s tlačidlom „Nahrať dokument“, prepínačom „Je to prepis stretnutia“ a radami, čo má text povedať](obrazky/nova-mapa.png)
 
 ![Nová mapa po nahratí textového súboru: text v poli a názov „Smernica nakup tovaru“ podľa súboru](obrazky/nahratie-dokumentu.png)
 
 ![Nová mapa po nahratí dlhého dokumentu: celý text v poli, červené počítadlo 56 979 / 50 000 a pod ním hláška, že text treba skrátiť](obrazky/dlhy-text.png)
+
+![Nová mapa po nahratí prepisu porady z Teams: odseky s menami bez časov, zapnutý prepínač „Je to prepis stretnutia“ a názov „Porada nakup“ podľa súboru](obrazky/prepis-stretnutia.png)
 
 ## Analýza AI a prehľadová mapa
 
@@ -200,9 +209,9 @@ Keď potrebuješ mapu do e-mailu, prezentácie alebo na tlač, nemusíš fotiť 
 
 ## Čo zatiaľ nevie a čo príde ďalej
 
-Dnes appka berie vložený text, textový súbor (.txt), Word (.docx) a PDF. V tomto poradí prídu:
+Dnes appka berie vložený text, textový súbor (.txt), Word (.docx), PDF a prepis stretnutia z Teams či Zoomu (.vtt, .srt). V tomto poradí prídu:
 
-1. Nahratie záznamu alebo prepisu stretnutia.
+1. Ďalšie časti prepisu stretnutia: prepis vo Worde a v .txt, nahradenie mien rolami a analýza, ktorá číta prepis ako rozhovor a označí, na čom sa ľudia nedohodli. Potom nahratie zvukového záznamu stretnutia.
 2. Spojenie viacerých vstupov do jednej mapy.
 
 Neskoršie, mimo tohto zoznamu: platby, prihlásenie cez Microsoft či Google a spoločné priestory pre kolegov z jednej firmy.
