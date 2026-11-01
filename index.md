@@ -4,9 +4,9 @@ title: "Procesné mapy: čo appka zatiaľ vie"
 
 # Procesné mapy: čo appka zatiaľ vie
 
-Stav k 28. 10. 2026 o 13:26.
+Stav k 1. 11. 2026 o 6:39.
 
-Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Hotovú mapu môžeš poslať odkazom niekomu, kto nemá účet, alebo si ju stiahnuť ako obrázok či PDF. Je zadarmo, s limitom 15 analýz mesačne na účet.
+Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu alebo textového súboru nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Hotovú mapu môžeš poslať odkazom niekomu, kto nemá účet, alebo si ju stiahnuť ako obrázok či PDF. Je zadarmo, s limitom 15 analýz mesačne na účet.
 
 Prihlasuje sa odkazom v e-maile, bez hesla. Každý vidí len svoje mapy, kým ich sám nezdieľa odkazom.
 
@@ -40,9 +40,20 @@ Nová mapa vzniká z textu, ktorý vložíš alebo napíšeš. Môže to byť aj
 - Mapu môžeš natrvalo zmazať aj s textom, po potvrdení.
 - Jeden účet môže mať najviac 200 máp.
 
+Popis procesu môžeš aj nahrať z textového súboru (.txt): tlačidlom „Nahrať dokument“, na počítači aj pretiahnutím súboru na pole. Funguje to pri novej mape aj pri úprave textu.
+
+- Text zo súboru sa objaví v poli, takže ho pred uložením vidíš a môžeš z neho vyhodiť, čo tam nepatrí. Uloží sa až tlačidlom „Uložiť“.
+- Prázdny názov sa vyplní podľa názvu súboru, napríklad zo „Smernica_nakup_tovaru.txt“ je „Smernica nakup tovaru“. Názov, ktorý si napísal sám, ostane.
+- Keď v poli už text je, aplikácia sa najprv opýta, či ho má nahradiť.
+- Pre text zo súboru platia tie isté hranice ako pre vložený text. Súbor nad 20 MB, prázdny, príliš krátky alebo príliš dlhý odmietne so zrozumiteľnou hláškou a pole nechá tak, ako bolo.
+- Súbor sa číta priamo v prehliadači, nikam sa neposiela ani neukladá a mapa si nepamätá ani jeho názov. Nahratie nestojí nič z limitu analýz.
+- Word (.docx) a PDF tlačidlo už ponúkne, ale ich čítanie ešte len príde.
+
 ![Moje mapy: jedna analyzovaná a jedna čakajúca na analýzu](obrazky/moje-mapy.png)
 
-![Nová mapa: pole na popis procesu a rady, čo má text povedať](obrazky/nova-mapa.png)
+![Nová mapa: pole na popis procesu s tlačidlom „Nahrať dokument“ a rady, čo má text povedať](obrazky/nova-mapa.png)
+
+![Nová mapa po nahratí textového súboru: text v poli a názov „Smernica nakup tovaru“ podľa súboru](obrazky/nahratie-dokumentu.png)
 
 ## Analýza AI a prehľadová mapa
 
@@ -187,9 +198,9 @@ Keď potrebuješ mapu do e-mailu, prezentácie alebo na tlač, nemusíš fotiť 
 
 ## Čo zatiaľ nevie a čo príde ďalej
 
-Dnes appka berie len vložený text. V tomto poradí prídu:
+Dnes appka berie vložený text a textový súbor (.txt). V tomto poradí prídu:
 
-1. Nahratie dokumentu (Word, PDF…) ako vstupu.
+1. Nahratie dokumentu vo Worde (.docx) a v PDF.
 2. Nahratie záznamu alebo prepisu stretnutia.
 3. Spojenie viacerých vstupov do jednej mapy.
 
