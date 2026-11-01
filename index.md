@@ -4,9 +4,9 @@ title: "Procesné mapy: čo appka zatiaľ vie"
 
 # Procesné mapy: čo appka zatiaľ vie
 
-Stav k 1. 11. 2026 o 7:37.
+Stav k 1. 11. 2026 o 8:54.
 
-Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu, textového súboru alebo dokumentu vo Worde nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Hotovú mapu môžeš poslať odkazom niekomu, kto nemá účet, alebo si ju stiahnuť ako obrázok či PDF. Je zadarmo, s limitom 15 analýz mesačne na účet.
+Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu, textového súboru, dokumentu vo Worde alebo PDF nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Hotovú mapu môžeš poslať odkazom niekomu, kto nemá účet, alebo si ju stiahnuť ako obrázok či PDF. Je zadarmo, s limitom 15 analýz mesačne na účet.
 
 Prihlasuje sa odkazom v e-maile, bez hesla. Každý vidí len svoje mapy, kým ich sám nezdieľa odkazom.
 
@@ -40,14 +40,14 @@ Nová mapa vzniká z textu, ktorý vložíš alebo napíšeš. Môže to byť aj
 - Mapu môžeš natrvalo zmazať aj s textom, po potvrdení.
 - Jeden účet môže mať najviac 200 máp.
 
-Popis procesu môžeš aj nahrať z textového súboru (.txt) alebo z Wordu (.docx): tlačidlom „Nahrať dokument“, na počítači aj pretiahnutím súboru na pole. Funguje to pri novej mape aj pri úprave textu.
+Popis procesu môžeš aj nahrať z textového súboru (.txt), z Wordu (.docx) alebo z PDF: tlačidlom „Nahrať dokument“, na počítači aj pretiahnutím súboru na pole. Funguje to pri novej mape aj pri úprave textu.
 
 - Text zo súboru sa objaví v poli, takže ho pred uložením vidíš a môžeš z neho vyhodiť, čo tam nepatrí. Uloží sa až tlačidlom „Uložiť“.
 - Prázdny názov sa vyplní podľa názvu súboru, napríklad zo „Smernica_nakup_tovaru.txt“ je „Smernica nakup tovaru“. Názov, ktorý si napísal sám, ostane.
 - Keď v poli už text je, aplikácia sa najprv opýta, či ho má nahradiť.
 - Pre text zo súboru platia tie isté hranice ako pre vložený text. Súbor nad 20 MB, prázdny, príliš krátky alebo príliš dlhý odmietne so zrozumiteľnou hláškou a pole nechá tak, ako bolo.
 - Súbor sa číta priamo v prehliadači, nikam sa neposiela ani neukladá a mapa si nepamätá ani jeho názov. Nahratie nestojí nič z limitu analýz.
-- Z Wordu sa prenesie text aj tabuľky, každý riadok tabuľky ako jeden riadok textu s bunkami oddelenými pomlčkou. Hlavičky, päty a komentáre sa vynechajú a sledované zmeny sa prenesú tak, ako by vyzerali po prijatí. Dokument zamknutý heslom alebo poškodený odmietne s hláškou, čo s ním spraviť. PDF tlačidlo už ponúkne, ale jeho čítanie ešte len príde.
+- Z Wordu sa prenesie text aj tabuľky, každý riadok tabuľky ako jeden riadok textu s bunkami oddelenými pomlčkou. Hlavičky, päty a komentáre sa vynechajú a sledované zmeny sa prenesú tak, ako by vyzerali po prijatí. Dokument zamknutý heslom alebo poškodený odmietne s hláškou, čo s ním spraviť. Z PDF s textom sa prenesie súvislý text: slová rozdelené na konci riadku sa spoja, riadky jedného odseku tiež a čísla strán a riadky opakujúce sa hore alebo dole na každej strane (hlavička, päta) sa vynechajú. Sken bez textu, PDF zamknuté heslom alebo poškodené odmietne s hláškou, čo s ním spraviť.
 
 ![Moje mapy: jedna analyzovaná a jedna čakajúca na analýzu](obrazky/moje-mapy.png)
 
@@ -198,10 +198,9 @@ Keď potrebuješ mapu do e-mailu, prezentácie alebo na tlač, nemusíš fotiť 
 
 ## Čo zatiaľ nevie a čo príde ďalej
 
-Dnes appka berie vložený text, textový súbor (.txt) a Word (.docx). V tomto poradí prídu:
+Dnes appka berie vložený text, textový súbor (.txt), Word (.docx) a PDF. V tomto poradí prídu:
 
-1. Nahratie dokumentu v PDF.
-2. Nahratie záznamu alebo prepisu stretnutia.
-3. Spojenie viacerých vstupov do jednej mapy.
+1. Nahratie záznamu alebo prepisu stretnutia.
+2. Spojenie viacerých vstupov do jednej mapy.
 
 Neskoršie, mimo tohto zoznamu: platby, prihlásenie cez Microsoft či Google a spoločné priestory pre kolegov z jednej firmy.
