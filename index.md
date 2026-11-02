@@ -4,7 +4,7 @@ title: "Procesné mapy: čo appka zatiaľ vie"
 
 # Procesné mapy: čo appka zatiaľ vie
 
-Stav k 1. 11. 2026 o 19:36.
+Stav k 2. 11. 2026 o 5:38.
 
 Procesné mapy je webová aplikácia, ktorá z popisu procesu urobí procesnú mapu. Dnes vie z vloženého textu, textového súboru, dokumentu vo Worde, PDF alebo prepisu stretnutia z Teams či Zoomu nakresliť prehľadovú mapu s krokmi rozdelenými podľa rolí, ktorýkoľvek krok rozpísať na detailnú mapu a mapu ručne opraviť. Hotovú mapu môžeš poslať odkazom niekomu, kto nemá účet, alebo si ju stiahnuť ako obrázok či PDF. Je zadarmo, s limitom 15 analýz mesačne na účet.
 
@@ -49,10 +49,10 @@ Popis procesu môžeš aj nahrať z textového súboru (.txt), z Wordu (.docx) a
 - Súbor sa číta priamo v prehliadači, nikam sa neposiela ani neukladá a mapa si nepamätá ani jeho názov. Nahratie nestojí nič z limitu analýz.
 - Z Wordu sa prenesie text aj tabuľky, každý riadok tabuľky ako jeden riadok textu s bunkami oddelenými pomlčkou. Hlavičky, päty a komentáre sa vynechajú a sledované zmeny sa prenesú tak, ako by vyzerali po prijatí. Dokument zamknutý heslom alebo poškodený odmietne s hláškou, čo s ním spraviť. Z PDF s textom sa prenesie súvislý text: slová rozdelené na konci riadku sa spoja, riadky jedného odseku tiež a čísla strán a riadky opakujúce sa hore alebo dole na každej strane (hlavička, päta) sa vynechajú. Sken bez textu, PDF zamknuté heslom alebo poškodené odmietne s hláškou, čo s ním spraviť.
 
-Rovnakým tlačidlom nahráš aj prepis stretnutia z Teams alebo zo Zoomu (.vtt) či titulky (.srt).
+Rovnakým tlačidlom nahráš aj prepis stretnutia z Teams alebo zo Zoomu (.vtt), prepis z Teams vo Worde, prepis zo Zoomu v .txt či titulky (.srt).
 
 - V poli sa prepis objaví bez časov. Každý odsek začína menom toho, kto hovorí, a repliky jedného človeka za sebou sú spojené do jedného odseku.
-- Aplikácia sama zapne prepínač „Je to prepis stretnutia“. Pri bežnom dokumente ostane vypnutý. Ručne ho môžeš zapnúť aj vypnúť, napríklad pri skopírovanom prepise, aj neskôr pri úprave textu.
+- Aplikácia sama zapne prepínač „Je to prepis stretnutia“. Word a .txt spozná ako prepis podľa mien s časom pri replikách, pri bežnom dokumente ostane vypnutý. Ručne ho môžeš zapnúť aj vypnúť, napríklad pri skopírovanom prepise, aj neskôr pri úprave textu.
 - Pri mape z prepisu je pri texte označenie „Prepis stretnutia“ a pri „Analyzovať“ veta, že účastníci stretnutia by mali vedieť, že prepis spracuješ pomocou AI. Každá verzia si pamätá, či vznikla z prepisu, a návrat k nej to vráti.
 - Mená v prepise ostanú, kým ich sám neprepíšeš na role. AI zatiaľ číta prepis rovnako ako popis postupu.
 
@@ -209,9 +209,9 @@ Keď potrebuješ mapu do e-mailu, prezentácie alebo na tlač, nemusíš fotiť 
 
 ## Čo zatiaľ nevie a čo príde ďalej
 
-Dnes appka berie vložený text, textový súbor (.txt), Word (.docx), PDF a prepis stretnutia z Teams či Zoomu (.vtt, .srt). V tomto poradí prídu:
+Dnes appka berie vložený text, textový súbor (.txt), Word (.docx), PDF a prepis stretnutia z Teams či Zoomu (.vtt, .srt, vo Worde a v .txt). V tomto poradí prídu:
 
-1. Ďalšie časti prepisu stretnutia: prepis vo Worde a v .txt, nahradenie mien rolami a analýza, ktorá číta prepis ako rozhovor a označí, na čom sa ľudia nedohodli. Potom nahratie zvukového záznamu stretnutia.
+1. Ďalšie časti prepisu stretnutia: nahradenie mien rolami a analýza, ktorá číta prepis ako rozhovor a označí, na čom sa ľudia nedohodli. Potom nahratie zvukového záznamu stretnutia.
 2. Spojenie viacerých vstupov do jednej mapy.
 
 Neskoršie, mimo tohto zoznamu: platby, prihlásenie cez Microsoft či Google a spoločné priestory pre kolegov z jednej firmy.
